@@ -1,0 +1,259 @@
+
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 960;
+	background: #f0f0f0;
+}
+
+.header {
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
+#logotip{
+    float: left;
+}
+
+#header-bar{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#header-bar li{
+    float: right;
+    display: inline;
+}
+
+#header-bar li a{
+    padding: 8px;
+    color: #878787;
+    text-align: center;
+    text-decoration: none;
+}
+
+#header-bar li a:hover{
+    color: #ad6069;
+}
+
+.greet{
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    display: flex;
+    justify-content: space-between;
+}
+
+#greeting{
+    margin: auto auto auto 0;
+}
+
+.social{
+    float: right;
+    margin-right: 0;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 1px solid #d6d6d6;
+}
+
+.social p{
+    float: left;
+    margin: 0 0 5px 50px;
+    font-variant: small-caps;
+}
+
+#social-pictures{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 3px;
+}
+
+#social-pictures li a{
+    margin: 3px;
+}
+
+.gallery{
+    margin-top: 38px;
+    margin-bottom: 38px;
+    display: grid;
+    padding: 0;
+    grid-template-columns: auto auto auto auto;
+}
+
+.gallery-img{
+    width: 225px;
+    margin: 0 20px 20px 0;
+}
+
+.gallery-img img{
+    height: 183px;
+}
+
+.img-name{
+    margin: -4px 0 0;
+    padding: 0;
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-variant: small-caps;
+    font: 18px/24px Arial, sans-serif;
+}
+
+.bottom{
+    margin-top: 0;
+    margin-bottom: 54px;
+}
+
+.bottom img{
+    margin: 0;
+    padding: 0;
+}
+
+.inner-bottom{
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+}
+
+.popular-posts{
+    width: 300px;
+}
+
+.bottom-headers{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: white;
+    vertical-align: middle;
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-variant: small-caps;
+    font: 18px/24px Arial, sans-serif;
+}
+
+.post-content{
+    width: 300px;
+}
+
+.post-message{
+    width: 300px;
+    display: flex;
+}
+
+.post-message img{
+    margin: 10px 10px 0 0;
+    padding: 5px;
+    background-color: white;
+}
+
+.message-content{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    margin: 0;
+    font-variant: small-caps;
+    width: 200px;
+}
+
+.time{
+    margin: 10px 0 0;
+    font-size: small;
+    width: 200px;
+    font: 12px/18px Arial, sans-serif;
+}
+
+.twitter-post{
+    width: 300px;
+}
+
+.twitter-message-content{
+    width: 300px;
+    display: flex;
+}
+
+.twitter-message-content img{
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.twitter-message{
+    margin: 0;
+    width: 272px;
+    font-size: 14px;
+}
+
+.twitter-message a{
+    color: #ad6069;
+}
+
+.twitter-time{
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #ad6069;
+    width: 272px;
+}
+
+.twitter-message-container{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text]{
+    width: 290px;
+    background-color: #d6d6d6;
+    color: #878787;
+    border: none;
+    padding:10px;
+    margin-top: 10px;
+}
+
+input[type=email]{
+    width: 290px;
+    background-color: #d6d6d6;
+    color: #878787;
+    border: none;
+    padding:10px 10px 10px;
+    margin-top: 10px;
+}
+
+textarea[name="comment"]{
+    width: 290px;
+    background-color: #d6d6d6;
+    color: #878787;
+    border: none;
+    padding:10px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+input[type=submit]{
+    background-color: #d6d6d6;
+    color: #e2e2e2;
+    border: none;
+    padding:5px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1000px;
+	margin: -50px auto 0;
+	height: 50px;
+	position: relative;
+}
